@@ -11,72 +11,26 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+    
+    <!-- Style sheet #1 for web below -->
+    
+    <link href="stylesheet1.css" rel="stylesheet">
+    
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style type="text/css">
-      
 
-      
-      
-      body{
-            width:1440px;
-            background:url(images/pattern-quotes.svg),url(images/pattern-bg.svg);
-            background-repeat: no-repeat, no-repeat;
-            background-size: 10%, 50%; 
-            background-position:top 213px left 250px,top 70px right 70px;
-          
-          
-      }
-      
-      .container{
-          
-            font-size: 32px;
-            font-family: 'Inter', sans-serif;
-            position:relative;
-            top: 150px;
-           
-          
-      }
-      
-     
-      
-      .item{
-          
-            width:540px;
-            height:540px;
-            float:right;
-            
-          
-          
-      }
-      
-      .controls{
-          
-          position:relative;
-          padding-left: 700px;
-          
-          
-      }
-      
   
-      
-      
-      
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-      
-  </style>
+  
 </head>
 <body>
     
- <div class="container">
     
-
-
-  
+ <div class="container">
+     
+     
+     
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -88,15 +42,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img class="image" src="images/image-tanya.jpg" alt="Tanya" ><div class="carousel-caption">   “I’ve been interested in coding for a while but never taken the jump, until now. 
+        <img class="image img-fluid" src="images/image-tanya.jpg" alt="Tanya"><div class="carousel-caption">  <p>“ I’ve been interested in coding for a while but never taken the jump, until now. 
         I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-        excited about the future.”
+        excited about the future. ”</p>  <strong>Tanya Sinclair<span > UX Designer </span></strong>
       </div>
         </div>      
 
-      <div class="item">
-        <img class="image" src="images/image-john.jpg" alt="John"><div class="carousel-caption"> “If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about 
-        starting up as a professional developer. ”</div>
+      <div class="item ">
+        <img class="image img-fluid" src="images/image-john.jpg" alt="John" > <div class="carousel-caption"> <p>“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about 
+        starting up as a professional developer. ”</p><strong>John Tarkpor<span > Junior Front-end Developer </span></strong></div>
       </div>
     
       
@@ -113,34 +67,18 @@
       <span><img src="images/icon-next.svg"></span>
       <span class="sr-only">Next</span>
     </a>
+          
+          
       </div>
   </div>
         </div>
-        
-   <!--  <div id="tanyaWords">
-        “I’ve been interested in coding for a while but never taken the jump, until now. 
-        I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-        excited about the future.”
+     
 
-  Tanya Sinclair
-  UX Engineer
-
-    
-     </div>-->
-    
-<!-- <div id=johnWords>  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
-
-  John Tarkpor
-  Junior Front-end Developer
-    
-    </div> -->
-  
-  <div class="attribution">
+   
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ashé Om</a>.
-  </div>
+  </div> -->
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      
