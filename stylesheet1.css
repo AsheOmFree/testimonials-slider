@@ -1,0 +1,149 @@
+body{
+            
+            background:url(images/pattern-quotes.svg),url(images/pattern-bg.svg),url(images/pattern-curve.svg);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: 8%, 47%, 65%; 
+            background-position:top 285px left 425px,top 70px right 75px, bottom -300px left;
+            
+          
+      }
+      
+      .container{
+            
+            font-size: 32px;
+            font-family: 'Inter', sans-serif;
+            position:relative;
+            top: 150px;
+            right:-15px;
+            font-weight: 300;
+            width: 1440px;
+            letter-spacing: 2px;
+            
+          
+      }
+      
+     
+      
+      .item{
+          
+          
+            float:right;
+         
+          
+      }
+      
+      .controls{
+          
+          background-color: white;
+        border-radius: 25px;
+        bottom: 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        height: 52px;
+        position: absolute;
+        right: 400px;
+        bottom: -30px;
+        width: 110px;
+        z-index: 999;
+          
+
+          
+      }
+      
+    .carousel-control-prev,
+    .carousel-control-next {
+    
+            position:relative;
+            right:11px;
+            width: 50%;
+            margin-left: 33px;
+}
+      
+    .controls img {
+        
+      
+       
+        
+        
+        
+      }
+      
+      .carousel-caption { 
+          width:650px; 
+          text-align: left; 
+          top:30%; 
+          left:-105%; 
+          bottom:auto;
+          color:hsl(240, 38%, 20%);
+          
+      
+          
+      }
+      
+      strong{
+          
+          font-weight: 700;
+          font-size: 20px;
+          position: relative;
+          left: 40px;
+          
+          
+      }
+      
+     span{
+         
+         font-weight: 300;
+         color: hsl(240, 18%, 77%);
+         
+          
+          
+          
+      }
+      
+      p{
+          position:relative;
+          width:740px;
+          left: 40px;
+          
+          
+      }
+      
+      .image{
+          
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+          height:648px; width:648px;
+          
+      }
+      
+    
+      @media only screen and (max-width: 900px){
+          
+          p,strong,span{
+              
+              display: none;
+              
+          } 
+          
+          p{
+              
+              
+              
+          }
+          
+          img{
+              height:540;
+              width: 540;
+              
+              
+          }
+          
+          .item{
+          
+          
+            float:left;
+              height: inherit;
+         
+          
+      }
+          
+          
+      }
