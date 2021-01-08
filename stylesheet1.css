@@ -1,9 +1,11 @@
-body{
+@media only screen and (min-width: 675px){
+        
+     body{
             
             background:url(images/pattern-quotes.svg),url(images/pattern-bg.svg),url(images/pattern-curve.svg);
             background-repeat: no-repeat, no-repeat, no-repeat;
-            background-size: 8%, 47%, 65%; 
-            background-position:top 285px left 425px,top 70px right 75px, bottom -300px left;
+            background-size: 7%, 47%, 65%; 
+            background-position:top 335px left 460px,top 70px right 75px, bottom -300px left;
             
           
       }
@@ -40,8 +42,8 @@ body{
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
         height: 52px;
         position: absolute;
-        right: 400px;
-        bottom: -30px;
+        right: 480px;
+        bottom: 120px;
         width: 110px;
         z-index: 999;
           
@@ -58,14 +60,7 @@ body{
             margin-left: 33px;
 }
       
-    .controls img {
-        
-      
-       
-        
-        
-        
-      }
+    
       
       .carousel-caption { 
           width:650px; 
@@ -107,43 +102,171 @@ body{
           
       }
       
+    .desktop{
+        
+        display: show;
+        
+        
+    }
+    
+    .mobile {
+        
+        display: none;
+    }
+    
+      
+     .image{ 
+         width:648px;
+          height:648px;
+    
+    
+    
+}
+
+    }
+      
+    
+      @media only screen and (max-width: 674px){
+          
+          body{
+            
+            background:url(images/pattern-quotes.svg),url(images/pattern-bg.svg),url(images/pattern-curve.svg);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: 12%, 70%, 65%; 
+            background-position:top 375px left 275px,top 20px right 40px, bottom -4px left;
+        
+            
+            
+          
+      }
+      
+      .container{
+            
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+            position:relative;
+            top: 65px;
+            right:-60px;
+            font-weight: 300;
+            width: 375px;
+            height: 660px;
+            letter-spacing: 2px;
+            
+          
+      }
+      
+      .controls{
+          
+          background-color: white;
+        border-radius: 25px;
+        bottom: 225px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        height: 40px;
+        position: absolute;
+        left: 115px;
+        width: 85px;
+        z-index: 999;
+          
+
+          
+      }
+      
+    .carousel-control-prev,
+    .carousel-control-next {
+    
+            position:relative;
+            right:10px;
+            top: 6px;
+            width: 50%;
+            margin-left: 25px;
+            
+}
+      
+      
+      .carousel-caption { 
+          width:650px; 
+          text-align: bottom; 
+          top:40%; 
+          left:-15%; 
+          color:hsl(240, 38%, 20%);
+          
+          
+      
+          
+      }
+      
+      strong{
+          
+          font-weight: 700;
+          font-size: 14px;
+          position: relative;
+          text-align: center;
+          
+          
+          
+          
+      }
+      
+     span{
+         
+         font-weight: 300;
+         color: hsl(240, 18%, 77%);
+         
+          
+          
+          
+      }
+      
+      p{
+          position:relative;
+          width:740px;
+          left: 40px;
+          
+      }
+    
+    .desktop{
+        
+        display: none;
+        
+        
+    }
+    
+    .mobile {
+        
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    
+    
+      
       .image{
           
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-          height:648px; width:648px;
+          height:255px; 
+          width:255px;
+          position: relative;
+          left: 30px;
+          
           
       }
       
     
-      @media only screen and (max-width: 900px){
+   
           
-          p,strong,span{
-              
-              display: none;
-              
-          } 
-          
-          p{
-              
-              
-              
-          }
-          
-          img{
-              height:540;
-              width: 540;
-              
-              
-          }
-          
-          .item{
-          
-          
-            float:left;
-              height: inherit;
-         
-          
-      }
-          
-          
-      }
+        .carousel{
+            
+            height:500px;
+            
+            
+        }
+        
+        .carousel-caption{
+            
+            position: relative;
+            
+            bottom: -45px;
+            
+            
+        }
+    
